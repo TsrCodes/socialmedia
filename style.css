@@ -1,0 +1,57 @@
+body {
+  background: #f9f9f9;
+}
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+ul.icons {
+  position: absolute;
+  top: 45%;
+}
+ul.icons li {
+  display: inline;
+  margin: 0 0.64rem;
+}
+.icons a.icoFacebook:hover {
+  background-color: #3b5998;
+}
+.icons a.icoinsta:hover {
+  background-color: #f77737;
+}
+.icons a.icotwitt:hover {
+  background-color: #1da1f2;
+}
+.icons a.icopin:hover {
+  background-color: #bd081c;
+}
+.icons a.icoFacebook:hover i,
+.icons a.icoinsta:hover i,
+.icons a.icotwitt:hover i,
+.icons a.icopin:hover i {
+  color: #fff;
+}
+.circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  font-size: 1.75rem;
+}
+.circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+.circle li a:hover {
+  transform: rotate(360deg);
+  transition: all 0.2s;
+}
+.circle i {
+  transition: all 0.8s;
+  color: #595959;
+}
